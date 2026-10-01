@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #30205c, #6846a5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    background: #f7f5fb;
+    padding: 35px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+    color: #35215f;
+    font-size: 34px;
+    margin-bottom: 8px;
+}
+
+.subtitulo {
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.busca {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 13px;
+    border: 2px solid #d8ccea;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #6846a5;
+}
+
+button {
+    padding: 13px 22px;
+    border: none;
+    border-radius: 8px;
+    background: #6846a5;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #503584;
+}
+
+#mensagem {
+    margin-top: 20px;
+    color: #555;
+}
+
+.card {
+    margin-top: 25px;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #ddd4eb;
+}
+
+.card h2 {
+    color: #35215f;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+}
+
+.temperatura {
+    font-size: 42px;
+    font-weight: bold;
+    color: #6846a5;
+    margin: 5px 0 15px;
+}
+
+.descricao {
+    text-transform: capitalize;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.informacoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.info {
+    background: #eee9f7;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.info strong {
+    display: block;
+    color: #4b327c;
+    margin-bottom: 5px;
+}
+
+.info span {
+    color: #555;
+}
