@@ -1,4 +1,4 @@
-const chave = "f1f8685a94abd86673692376a8b961e9";
+const chave = "662796792c2fc235edc78e54b279c9eb";
 
 async function buscarClima() {
     const cidade = document.getElementById("cidade").value;
